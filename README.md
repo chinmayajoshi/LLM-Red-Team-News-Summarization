@@ -1,12 +1,12 @@
-# Newspaper Summarization Bot: Automated Red Team Scan
+# News Summarization Bot: Automated Red Team Scan
 
-This repository contains an AI security analysis and summarization project using Giskard, LangChain, and Google Gemini LLMs. It performs automated security scans on using `Giskard` with `Gemini 2.0 Flash` LLM and exports reports in [AI Vulnerability Database (AVID)](https://docs.giskard.ai/en/latest/integrations/avid/index.html) format.
+This repository contains news summarization bot with AI security analysis (Red Team) project using Giskard, LangChain and Google Gemini LLMs. It performs automated security scans using `Giskard` with `Gemini 2.0 Flash` LLM, and exports reports in [AI Vulnerability Database (AVID)](https://docs.giskard.ai/en/latest/integrations/avid/index.html) format.
 
 ## Repository Structure
 
 | File                                       | Description                                                                                    |   
 | ------------------------------------------ | ---------------------------------------------------------------------------------------------- | 
-| **Newspaper\_Summary\_Red\_Team\_Scan.ipynb**  | Jupyter Notebook implementing AI security scans and summarization using LangChain and Giskard. |   
+| **Newspaper\_Summary\_Red\_Team\_Scan.ipynb**  | Jupyter Notebook implementing news summarization and AI security scans using LangChain and Giskard. |   
 | **avid\_report.jsonl**                     | AI Vulnerability Database (AVID) reports in JSONL format.                                      |  
 | **AI\_Vulnerability\_JSON\_Reports.ipynb** | Notebook for reading and processing AVID reports.                                              |   
 | **Giskard Scan Report Screenshot.jpg**     | Screenshot showcasing a Giskard security scan report.                                          |   
@@ -18,7 +18,7 @@ This repository contains an AI security analysis and summarization project using
 Ensure you have the necessary dependencies installed by running:
 
 ```bash
-pip install "giskard[llm]" langchain-google-genai pillow
+pip install "giskard[llm]" langchain-google-genai avidtools pillow
 ```
 
 ### API Keys
